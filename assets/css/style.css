@@ -137,7 +137,7 @@ h2 {
 #center-about {
     width: 33%;
     margin: 0 auto;
-   
+
 }
 
 hr {
@@ -169,6 +169,7 @@ hr {
 .right-about-heading p {
     text-align: right;
 }
+
 #welcome {
     text-align: center;
     margin: 20px 0;
@@ -187,7 +188,17 @@ hr {
 }
 
 #circle-cover-bg {
-    background: url('../images/ethos-center-image.jpg') no-repeat  center center;
+    background: url('../images/ethos-center-image.jpg') no-repeat center center;
     height: 100%;
     border-radius: 50%;
+}
+
+/* event times */
+#times {
+    background: url('../images/dublin-city.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
 }
